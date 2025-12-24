@@ -18,7 +18,7 @@ export default function ContactForm() {
         <div className="titleContMobile">
           <h2 className="contactFormTitle">FOOTY ELITE</h2>
           <h3 className="contactFormSubtitle">SOCCER COACHING</h3>
-          <p className="contactFormSubtitleItem">TEL: (925)421-3359</p>
+          <a href="tel:(925)421-3359" className="contactFormSubtitleItem">TEL: (925)421-3359</a>
           <p className="contactFormSubtitleItem">edgar@edgarfootyelite.com</p>
 
         </div>
