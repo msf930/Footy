@@ -11,14 +11,16 @@ export default function ContactForm() {
         <div className="titleCont">
           <h2 className="contactFormTitle">FOOTY ELITE</h2>
           <h3 className="contactFormSubtitle">SOCCER COACHING</h3>
-          <p className="contactFormSubtitleItem">TEL: (925)421-3359</p>
+          <a href="tel:(925)421-3359" className="contactFormSubtitleItem">Alejandro Lopez TEL: (925)421-3359</a>
+          <a href="tel:(925)483-4910" className="contactFormSubtitleItem">Edgar Castaneda TEL: (925)483-4910</a>
           <p className="contactFormSubtitleItem">EMAIL: edgar@edgarfootyelite.com</p>
 
         </div>
         <div className="titleContMobile">
           <h2 className="contactFormTitle">FOOTY ELITE</h2>
           <h3 className="contactFormSubtitle">SOCCER COACHING</h3>
-          <a href="tel:(925)421-3359" className="contactFormSubtitleItem">TEL: (925)421-3359</a>
+          <a href="tel:(925)421-3359" className="contactFormSubtitleItem">Alejandro Lopez TEL: (925)421-3359</a>
+          <a href="tel:(925)483-4910" className="contactFormSubtitleItem">Edgar Castaneda TEL: (925)483-4910</a>
           <p className="contactFormSubtitleItem">edgar@edgarfootyelite.com</p>
 
         </div>
