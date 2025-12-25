@@ -6,13 +6,20 @@
   box-sizing: border-box;
 }
 
-html,
+html {
+  background-color: black;
+}
+
 body {
   overflow-x: hidden;
   overflow-y: auto;
   width: 100%;
   max-width: 100vw;
   height: 100%;
+  background-color: black;
+  /* Support for iOS safe areas - background extends to edges */
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 :root {
