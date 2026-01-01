@@ -56,7 +56,7 @@ export default function ContactForm() {
             <input type="hidden" name="redirect" value="https://web3forms.com/success" />
             <div className="hCaptchaCont">
               <HCaptcha
-                sitekey="ecd6157a-0260-427b-996c-8e3c9c564fbb"
+                sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
                 reCaptchaCompat={false}
                 onVerify={onHCaptchaChange}
                 theme="dark"
