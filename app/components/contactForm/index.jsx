@@ -21,7 +21,7 @@ export default function ContactForm() {
           <h3 className="contactFormSubtitle">SOCCER COACHING</h3>
           <a href="tel:(925)421-3359" className="contactFormSubtitleItem">Alejandro Lopez TEL: (925)421-3359</a>
           <a href="tel:(925)483-4910" className="contactFormSubtitleItem">Edgar Castaneda TEL: (925)483-4910</a>
-          <p className="contactFormSubtitleItem">edgar@edgarfootyelite.com</p>
+          <a href="mailto:edgar@edgarfootyelite.com" className="contactFormSubtitleItem">EMAIL: edgar@edgarfootyelite.com</a>
 
         </div>
         <div className="contactFormInner">
